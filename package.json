@@ -1,0 +1,31 @@
+{
+  "name": "node-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandredsa/node-middleware.git"
+  },
+  "keywords": [
+    "node",
+    "restify",
+    "middleware"
+  ],
+  "author": "Alexandre Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandredsa/node-middleware/issues"
+  },
+  "homepage": "https://github.com/alexandredsa/node-middleware#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "restify": "^7.2.1",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-router": "^0.5.1"
+  }
+}
